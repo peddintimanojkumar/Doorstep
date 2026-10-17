@@ -1,0 +1,25 @@
+CREATE TABLE `professional_application` (
+    `id` INTEGER NOT NULL AUTO_INCREMENT,
+    `fullName` VARCHAR(150) NOT NULL,
+    `email` VARCHAR(191) NOT NULL,
+    `phone` VARCHAR(20) NOT NULL,
+    `serviceCategory` VARCHAR(100) NOT NULL,
+    `experienceYears` INTEGER NOT NULL,
+    `serviceArea` VARCHAR(255) NOT NULL,
+    `skills` TEXT NOT NULL,
+    `availability` VARCHAR(30) NOT NULL,
+    `description` TEXT NOT NULL,
+    `identityDocumentPath` VARCHAR(500) NOT NULL,
+    `addressProofPath` VARCHAR(500) NOT NULL,
+    `certificatePath` VARCHAR(500) NULL,
+    `status` VARCHAR(20) NOT NULL DEFAULT 'PENDING',
+    `reviewNotes` TEXT NULL,
+    `reviewedAt` DATETIME(3) NULL,
+    `createdAt` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+    `updatedAt` DATETIME(3) NOT NULL,
+
+    INDEX `professional_application_status_idx` (`status`),
+    INDEX `professional_application_email_idx` (`email`),
+    INDEX `professional_application_createdAt_idx` (`createdAt`),
+    PRIMARY KEY (`id`)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;

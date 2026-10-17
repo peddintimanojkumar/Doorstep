@@ -1,0 +1,76 @@
+nodemon@3.1.14
+
+cors@2.8.6
+├── dotenv@18.0.6
+├── express@5.2.1
+├── jsonwebtoken@9.0.3
+└── nodemon@3.1.14
+
+
+prisma = "7.0.0-rc.20"
+
+─ jsonwebtoken@9.0.3
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    customer :
+
+
+    1       "firstName": "Test",
+        "lastName": "User",
+        "email": "testuser@example.com",
+        "password": "Test@12345"
+        "phone": "9876543210",
+
+    2    email : manupeddinti1@gmail.com
+         password: Admin123
+}
+
+
+
+{
+    for login we can use 
+     "email": "admin@doorstep.com",
+    "password": "Admin1@12345"
+}
+
+{
+    .professional-password
+Professional password reset successfully.
+Email: professional@doorstep.com
+Temporary password: DoorstepPro@2026
+
+
+
+
+Email : professionaltest1@gmail.com
+password : Test1234
+
+
+
+
+
+
+}
+
+
+
+{
+    password : Doorstep@123
+    for customer email id follows :
+
+        test.customer01@doorstep.test to test.customer20@doorstep.test
+
+    for professional 
+        test.professional01@doorstep.test to test.professional10@doorstep.test
+}
